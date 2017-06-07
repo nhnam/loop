@@ -13,6 +13,8 @@
 		EC2F83671EE7A29A00A8D4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2F83661EE7A29A00A8D4F1 /* Assets.xcassets */; };
 		EC2F836A1EE7A29A00A8D4F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2F83681EE7A29A00A8D4F1 /* LaunchScreen.storyboard */; };
 		EC2F83751EE7A29A00A8D4F1 /* LoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2F83741EE7A29A00A8D4F1 /* LoopTests.swift */; };
+		EC5B81CB1EE7FDA700B29A5E /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5B81CA1EE7FDA700B29A5E /* EventsViewController.swift */; };
+		EC5B81CE1EE7FE2300B29A5E /* MainTabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5B81CD1EE7FE2300B29A5E /* MainTabsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		EC2F83701EE7A29A00A8D4F1 /* LoopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2F83741EE7A29A00A8D4F1 /* LoopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopTests.swift; sourceTree = "<group>"; };
 		EC2F83761EE7A29A00A8D4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5B81CA1EE7FDA700B29A5E /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		EC5B81CD1EE7FE2300B29A5E /* MainTabsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		EC2F835E1EE7A29A00A8D4F1 /* Loop */ = {
 			isa = PBXGroup;
 			children = (
+				EC5B81C81EE7FD6100B29A5E /* ViewControllers */,
 				EC2F835F1EE7A29A00A8D4F1 /* AppDelegate.swift */,
 				EC2F83611EE7A29A00A8D4F1 /* ViewController.swift */,
 				EC2F83631EE7A29A00A8D4F1 /* Main.storyboard */,
@@ -94,6 +99,31 @@
 				EC2F83761EE7A29A00A8D4F1 /* Info.plist */,
 			);
 			path = LoopTests;
+			sourceTree = "<group>";
+		};
+		EC5B81C81EE7FD6100B29A5E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC5B81CC1EE7FDC000B29A5E /* Home */,
+				EC5B81C91EE7FD8B00B29A5E /* Events */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EC5B81C91EE7FD8B00B29A5E /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				EC5B81CA1EE7FDA700B29A5E /* EventsViewController.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		EC5B81CC1EE7FDC000B29A5E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EC5B81CD1EE7FE2300B29A5E /* MainTabsViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC2F83621EE7A29A00A8D4F1 /* ViewController.swift in Sources */,
+				EC5B81CE1EE7FE2300B29A5E /* MainTabsViewController.swift in Sources */,
 				EC2F83601EE7A29A00A8D4F1 /* AppDelegate.swift in Sources */,
+				EC5B81CB1EE7FDA700B29A5E /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +440,7 @@
 				EC2F837B1EE7A29A00A8D4F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC2F837C1EE7A29A00A8D4F1 /* Build configuration list for PBXNativeTarget "LoopTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +449,7 @@
 				EC2F837E1EE7A29A00A8D4F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
