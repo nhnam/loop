@@ -7,12 +7,133 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B8455715B61433FCD5D8103 /* Pods_Loop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70ED5293195310F1BE8EC4E7 /* Pods_Loop.framework */; };
 		EC2F83601EE7A29A00A8D4F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2F835F1EE7A29A00A8D4F1 /* AppDelegate.swift */; };
-		EC2F83621EE7A29A00A8D4F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2F83611EE7A29A00A8D4F1 /* ViewController.swift */; };
 		EC2F83651EE7A29A00A8D4F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2F83631EE7A29A00A8D4F1 /* Main.storyboard */; };
 		EC2F83671EE7A29A00A8D4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2F83661EE7A29A00A8D4F1 /* Assets.xcassets */; };
 		EC2F836A1EE7A29A00A8D4F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2F83681EE7A29A00A8D4F1 /* LaunchScreen.storyboard */; };
 		EC2F83751EE7A29A00A8D4F1 /* LoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2F83741EE7A29A00A8D4F1 /* LoopTests.swift */; };
+		EC31BC861EE93489009F0CB1 /* BebasNeue Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC1A1EE93489009F0CB1 /* BebasNeue Bold.otf */; };
+		EC31BC871EE93489009F0CB1 /* BebasNeue Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC1B1EE93489009F0CB1 /* BebasNeue Book.otf */; };
+		EC31BC881EE93489009F0CB1 /* BebasNeue Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC1C1EE93489009F0CB1 /* BebasNeue Book.ttf */; };
+		EC31BC891EE93489009F0CB1 /* BebasNeue Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC1D1EE93489009F0CB1 /* BebasNeue Light.otf */; };
+		EC31BC8A1EE93489009F0CB1 /* BebasNeue Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC1E1EE93489009F0CB1 /* BebasNeue Light.ttf */; };
+		EC31BC8B1EE93489009F0CB1 /* BebasNeue Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC1F1EE93489009F0CB1 /* BebasNeue Regular.otf */; };
+		EC31BC8C1EE93489009F0CB1 /* BebasNeue Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC201EE93489009F0CB1 /* BebasNeue Regular.ttf */; };
+		EC31BC8D1EE93489009F0CB1 /* BebasNeue Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC211EE93489009F0CB1 /* BebasNeue Thin.otf */; };
+		EC31BC8E1EE93489009F0CB1 /* BebasNeue Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC221EE93489009F0CB1 /* BebasNeue Thin.ttf */; };
+		EC31BC8F1EE93489009F0CB1 /* BebasNeue-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC231EE93489009F0CB1 /* BebasNeue-Bold.ttf */; };
+		EC31BC901EE93489009F0CB1 /* Gotham-Black(1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC241EE93489009F0CB1 /* Gotham-Black(1).ttf */; };
+		EC31BC911EE93489009F0CB1 /* GOTHAM-BLACK.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC251EE93489009F0CB1 /* GOTHAM-BLACK.TTF */; };
+		EC31BC921EE93489009F0CB1 /* Gotham-BlackItalic(1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC261EE93489009F0CB1 /* Gotham-BlackItalic(1).ttf */; };
+		EC31BC931EE93489009F0CB1 /* GOTHAM-BLACKITALIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC271EE93489009F0CB1 /* GOTHAM-BLACKITALIC.TTF */; };
+		EC31BC941EE93489009F0CB1 /* Gotham-Bold(1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC281EE93489009F0CB1 /* Gotham-Bold(1).ttf */; };
+		EC31BC951EE93489009F0CB1 /* GOTHAM-BOLD.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC291EE93489009F0CB1 /* GOTHAM-BOLD.TTF */; };
+		EC31BC961EE93489009F0CB1 /* Gotham-Bold_0(1).otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC2A1EE93489009F0CB1 /* Gotham-Bold_0(1).otf */; };
+		EC31BC971EE93489009F0CB1 /* GOTHAM-BOLD_0.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC2B1EE93489009F0CB1 /* GOTHAM-BOLD_0.OTF */; };
+		EC31BC981EE93489009F0CB1 /* Gotham-BoldItalic(1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC2C1EE93489009F0CB1 /* Gotham-BoldItalic(1).ttf */; };
+		EC31BC991EE93489009F0CB1 /* GOTHAM-BOLDITALIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC2D1EE93489009F0CB1 /* GOTHAM-BOLDITALIC.TTF */; };
+		EC31BC9A1EE93489009F0CB1 /* Gotham-BookItalic_0(1).otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC2E1EE93489009F0CB1 /* Gotham-BookItalic_0(1).otf */; };
+		EC31BC9B1EE93489009F0CB1 /* GOTHAM-BOOKITALIC_0.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC2F1EE93489009F0CB1 /* GOTHAM-BOOKITALIC_0.OTF */; };
+		EC31BC9C1EE93489009F0CB1 /* Gotham-Light(1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC301EE93489009F0CB1 /* Gotham-Light(1).ttf */; };
+		EC31BC9D1EE93489009F0CB1 /* GOTHAM-LIGHT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC311EE93489009F0CB1 /* GOTHAM-LIGHT.TTF */; };
+		EC31BC9E1EE93489009F0CB1 /* Gotham-Light_0(1).otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC321EE93489009F0CB1 /* Gotham-Light_0(1).otf */; };
+		EC31BC9F1EE93489009F0CB1 /* GOTHAM-LIGHT_0.OTF in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC331EE93489009F0CB1 /* GOTHAM-LIGHT_0.OTF */; };
+		EC31BCA01EE93489009F0CB1 /* Gotham-LightItalic(1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC341EE93489009F0CB1 /* Gotham-LightItalic(1).ttf */; };
+		EC31BCA11EE93489009F0CB1 /* GOTHAM-LIGHTITALIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC351EE93489009F0CB1 /* GOTHAM-LIGHTITALIC.TTF */; };
+		EC31BCA21EE93489009F0CB1 /* Gotham-Medium(1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC361EE93489009F0CB1 /* Gotham-Medium(1).ttf */; };
+		EC31BCA31EE93489009F0CB1 /* GOTHAM-MEDIUM.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC371EE93489009F0CB1 /* GOTHAM-MEDIUM.TTF */; };
+		EC31BCA41EE93489009F0CB1 /* Gotham-MediumItalic(1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC381EE93489009F0CB1 /* Gotham-MediumItalic(1).ttf */; };
+		EC31BCA51EE93489009F0CB1 /* GOTHAM-MEDIUMITALIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC391EE93489009F0CB1 /* GOTHAM-MEDIUMITALIC.TTF */; };
+		EC31BCA61EE93489009F0CB1 /* Gotham-Thin(1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC3A1EE93489009F0CB1 /* Gotham-Thin(1).ttf */; };
+		EC31BCA71EE93489009F0CB1 /* GOTHAM-THIN.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC3B1EE93489009F0CB1 /* GOTHAM-THIN.TTF */; };
+		EC31BCA81EE93489009F0CB1 /* Gotham-ThinItalic(1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC3C1EE93489009F0CB1 /* Gotham-ThinItalic(1).ttf */; };
+		EC31BCA91EE93489009F0CB1 /* GOTHAM-THINITALIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC3D1EE93489009F0CB1 /* GOTHAM-THINITALIC.TTF */; };
+		EC31BCAA1EE93489009F0CB1 /* Gotham-Ultra(1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC3E1EE93489009F0CB1 /* Gotham-Ultra(1).ttf */; };
+		EC31BCAB1EE93489009F0CB1 /* GOTHAM-ULTRA.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC3F1EE93489009F0CB1 /* GOTHAM-ULTRA.TTF */; };
+		EC31BCAC1EE93489009F0CB1 /* Gotham-UltraItalic(1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC401EE93489009F0CB1 /* Gotham-UltraItalic(1).ttf */; };
+		EC31BCAD1EE93489009F0CB1 /* GOTHAM-ULTRAITALIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC411EE93489009F0CB1 /* GOTHAM-ULTRAITALIC.TTF */; };
+		EC31BCAE1EE93489009F0CB1 /* Gotham-XLight(1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC421EE93489009F0CB1 /* Gotham-XLight(1).ttf */; };
+		EC31BCAF1EE93489009F0CB1 /* GOTHAM-XLIGHT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC431EE93489009F0CB1 /* GOTHAM-XLIGHT.TTF */; };
+		EC31BCB01EE93489009F0CB1 /* Gotham-XLightItalic(1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC441EE93489009F0CB1 /* Gotham-XLightItalic(1).ttf */; };
+		EC31BCB11EE93489009F0CB1 /* GOTHAM-XLIGHTITALIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC451EE93489009F0CB1 /* GOTHAM-XLIGHTITALIC.TTF */; };
+		EC31BCB21EE93489009F0CB1 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC461EE93489009F0CB1 /* Montserrat-Black.otf */; };
+		EC31BCB31EE93489009F0CB1 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC471EE93489009F0CB1 /* Montserrat-Bold.otf */; };
+		EC31BCB41EE93489009F0CB1 /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC481EE93489009F0CB1 /* Montserrat-ExtraBold.otf */; };
+		EC31BCB51EE93489009F0CB1 /* Montserrat-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC491EE93489009F0CB1 /* Montserrat-ExtraLight.otf */; };
+		EC31BCB61EE93489009F0CB1 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC4A1EE93489009F0CB1 /* Montserrat-Light.otf */; };
+		EC31BCB71EE93489009F0CB1 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC4B1EE93489009F0CB1 /* Montserrat-Medium.otf */; };
+		EC31BCB81EE93489009F0CB1 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC4C1EE93489009F0CB1 /* Montserrat-Regular.otf */; };
+		EC31BCB91EE93489009F0CB1 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC4D1EE93489009F0CB1 /* Montserrat-SemiBold.otf */; };
+		EC31BCBA1EE93489009F0CB1 /* Montserrat-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC4E1EE93489009F0CB1 /* Montserrat-Thin.otf */; };
+		EC31BCBB1EE93489009F0CB1 /* MontserratAlternates-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC4F1EE93489009F0CB1 /* MontserratAlternates-Black.otf */; };
+		EC31BCBC1EE93489009F0CB1 /* MontserratAlternates-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC501EE93489009F0CB1 /* MontserratAlternates-Bold.otf */; };
+		EC31BCBD1EE93489009F0CB1 /* MontserratAlternates-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC511EE93489009F0CB1 /* MontserratAlternates-ExtraBold.otf */; };
+		EC31BCBE1EE93489009F0CB1 /* MontserratAlternates-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC521EE93489009F0CB1 /* MontserratAlternates-ExtraLight.otf */; };
+		EC31BCBF1EE93489009F0CB1 /* MontserratAlternates-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC531EE93489009F0CB1 /* MontserratAlternates-Light.otf */; };
+		EC31BCC01EE93489009F0CB1 /* MontserratAlternates-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC541EE93489009F0CB1 /* MontserratAlternates-Medium.otf */; };
+		EC31BCC11EE93489009F0CB1 /* MontserratAlternates-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC551EE93489009F0CB1 /* MontserratAlternates-Regular.otf */; };
+		EC31BCC21EE93489009F0CB1 /* MontserratAlternates-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC561EE93489009F0CB1 /* MontserratAlternates-SemiBold.otf */; };
+		EC31BCC31EE93489009F0CB1 /* MontserratAlternates-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC571EE93489009F0CB1 /* MontserratAlternates-Thin.otf */; };
+		EC31BCC41EE93489009F0CB1 /* MuseoSansCyrl 500.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC581EE93489009F0CB1 /* MuseoSansCyrl 500.otf */; };
+		EC31BCC51EE93489009F0CB1 /* MuseoSansCyrl 700.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC591EE93489009F0CB1 /* MuseoSansCyrl 700.otf */; };
+		EC31BCC61EE93489009F0CB1 /* MuseoSansCyrl.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC5A1EE93489009F0CB1 /* MuseoSansCyrl.otf */; };
+		EC31BCC71EE93489009F0CB1 /* MuseoSansCyrl_0.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC5B1EE93489009F0CB1 /* MuseoSansCyrl_0.otf */; };
+		EC31BCC81EE93489009F0CB1 /* MuseoSansCyrl_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC5C1EE93489009F0CB1 /* MuseoSansCyrl_1.otf */; };
+		EC31BCC91EE93489009F0CB1 /* MuseoSansCyrl_2 2.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC5D1EE93489009F0CB1 /* MuseoSansCyrl_2 2.otf */; };
+		EC31BCCA1EE93489009F0CB1 /* MuseoSansCyrl_2-1.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC5E1EE93489009F0CB1 /* MuseoSansCyrl_2-1.otf */; };
+		EC31BCCB1EE93489009F0CB1 /* MuseoSansCyrl_2.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC5F1EE93489009F0CB1 /* MuseoSansCyrl_2.otf */; };
+		EC31BCCC1EE93489009F0CB1 /* MuseoSansCyrl_3.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC601EE93489009F0CB1 /* MuseoSansCyrl_3.otf */; };
+		EC31BCCD1EE93489009F0CB1 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC611EE93489009F0CB1 /* Raleway-Black.ttf */; };
+		EC31BCCE1EE93489009F0CB1 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC621EE93489009F0CB1 /* Raleway-BlackItalic.ttf */; };
+		EC31BCCF1EE93489009F0CB1 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC631EE93489009F0CB1 /* Raleway-Bold.ttf */; };
+		EC31BCD01EE93489009F0CB1 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC641EE93489009F0CB1 /* Raleway-BoldItalic.ttf */; };
+		EC31BCD11EE93489009F0CB1 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC651EE93489009F0CB1 /* Raleway-ExtraBold.ttf */; };
+		EC31BCD21EE93489009F0CB1 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC661EE93489009F0CB1 /* Raleway-ExtraBoldItalic.ttf */; };
+		EC31BCD31EE93489009F0CB1 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC671EE93489009F0CB1 /* Raleway-ExtraLight.ttf */; };
+		EC31BCD41EE93489009F0CB1 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC681EE93489009F0CB1 /* Raleway-ExtraLightItalic.ttf */; };
+		EC31BCD51EE93489009F0CB1 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC691EE93489009F0CB1 /* Raleway-Italic.ttf */; };
+		EC31BCD61EE93489009F0CB1 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC6A1EE93489009F0CB1 /* Raleway-Light.ttf */; };
+		EC31BCD71EE93489009F0CB1 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC6B1EE93489009F0CB1 /* Raleway-LightItalic.ttf */; };
+		EC31BCD81EE93489009F0CB1 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC6C1EE93489009F0CB1 /* Raleway-Medium.ttf */; };
+		EC31BCD91EE93489009F0CB1 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC6D1EE93489009F0CB1 /* Raleway-MediumItalic.ttf */; };
+		EC31BCDA1EE93489009F0CB1 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC6E1EE93489009F0CB1 /* Raleway-Regular.ttf */; };
+		EC31BCDB1EE93489009F0CB1 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC6F1EE93489009F0CB1 /* Raleway-SemiBold.ttf */; };
+		EC31BCDC1EE93489009F0CB1 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC701EE93489009F0CB1 /* Raleway-SemiBoldItalic.ttf */; };
+		EC31BCDD1EE93489009F0CB1 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC711EE93489009F0CB1 /* Raleway-Thin.ttf */; };
+		EC31BCDE1EE93489009F0CB1 /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC721EE93489009F0CB1 /* Raleway-ThinItalic.ttf */; };
+		EC31BCDF1EE93489009F0CB1 /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC731EE93489009F0CB1 /* SF-UI-Text-Bold.otf */; };
+		EC31BCE01EE93489009F0CB1 /* SF-UI-Text-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC741EE93489009F0CB1 /* SF-UI-Text-BoldItalic.otf */; };
+		EC31BCE11EE93489009F0CB1 /* SF-UI-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC751EE93489009F0CB1 /* SF-UI-Text-Heavy.otf */; };
+		EC31BCE21EE93489009F0CB1 /* SF-UI-Text-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC761EE93489009F0CB1 /* SF-UI-Text-HeavyItalic.otf */; };
+		EC31BCE31EE93489009F0CB1 /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC771EE93489009F0CB1 /* SF-UI-Text-Light.otf */; };
+		EC31BCE41EE93489009F0CB1 /* SF-UI-Text-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC781EE93489009F0CB1 /* SF-UI-Text-LightItalic.otf */; };
+		EC31BCE51EE93489009F0CB1 /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC791EE93489009F0CB1 /* SF-UI-Text-Medium.otf */; };
+		EC31BCE61EE93489009F0CB1 /* SF-UI-Text-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC7A1EE93489009F0CB1 /* SF-UI-Text-MediumItalic.otf */; };
+		EC31BCE71EE93489009F0CB1 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC7B1EE93489009F0CB1 /* SF-UI-Text-Regular.otf */; };
+		EC31BCE81EE93489009F0CB1 /* SF-UI-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC7C1EE93489009F0CB1 /* SF-UI-Text-RegularItalic.otf */; };
+		EC31BCE91EE93489009F0CB1 /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC7D1EE93489009F0CB1 /* SF-UI-Text-Semibold.otf */; };
+		EC31BCEA1EE93489009F0CB1 /* SF-UI-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC7E1EE93489009F0CB1 /* SF-UI-Text-SemiboldItalic.otf */; };
+		EC31BCEB1EE93489009F0CB1 /* SFUIDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC7F1EE93489009F0CB1 /* SFUIDisplay-Bold.otf */; };
+		EC31BCEC1EE93489009F0CB1 /* SFUIDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC801EE93489009F0CB1 /* SFUIDisplay-Light.otf */; };
+		EC31BCED1EE93489009F0CB1 /* SFUIDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC811EE93489009F0CB1 /* SFUIDisplay-Medium.otf */; };
+		EC31BCEE1EE93489009F0CB1 /* SFUIDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC821EE93489009F0CB1 /* SFUIDisplay-Regular.otf */; };
+		EC31BCEF1EE93489009F0CB1 /* SFUIDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC831EE93489009F0CB1 /* SFUIDisplay-Semibold.otf */; };
+		EC31BCF01EE93489009F0CB1 /* SFUIDisplay-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC841EE93489009F0CB1 /* SFUIDisplay-Thin.otf */; };
+		EC31BCF11EE93489009F0CB1 /* SFUIDisplay-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC31BC851EE93489009F0CB1 /* SFUIDisplay-Ultralight.otf */; };
+		EC31BD151EE93D10009F0CB1 /* Signin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC31BD141EE93D10009F0CB1 /* Signin.storyboard */; };
+		EC31BD1B1EE93D81009F0CB1 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BD171EE93D81009F0CB1 /* SignupViewController.swift */; };
+		EC31BD1C1EE93D81009F0CB1 /* SiginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BD181EE93D81009F0CB1 /* SiginViewController.swift */; };
+		EC31BD1D1EE93D81009F0CB1 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BD191EE93D81009F0CB1 /* ForgotPasswordViewController.swift */; };
+		EC31BD1E1EE93D81009F0CB1 /* BaseRegisterViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BD1A1EE93D81009F0CB1 /* BaseRegisterViewViewController.swift */; };
+		EC31BD2D1EE93E5A009F0CB1 /* VaribleKeyConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BD241EE93E5A009F0CB1 /* VaribleKeyConstant.swift */; };
+		EC31BD2F1EE93E5A009F0CB1 /* AppConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BD261EE93E5A009F0CB1 /* AppConfigure.swift */; };
+		EC31BD321EE93EEB009F0CB1 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BD311EE93EEB009F0CB1 /* UIStoryboard.swift */; };
+		EC31BD351EE94DF6009F0CB1 /* LoopTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BD341EE94DF6009F0CB1 /* LoopTextField.swift */; };
+		EC31BD371EE94E0E009F0CB1 /* LoopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BD361EE94E0E009F0CB1 /* LoopButton.swift */; };
+		EC31BD3A1EE94FD4009F0CB1 /* BaseViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BD391EE94FD4009F0CB1 /* BaseViewControllerProtocol.swift */; };
+		EC31BD3C1EE95128009F0CB1 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BD3B1EE95128009F0CB1 /* UIViewController.swift */; };
+		EC31BD3E1EE95440009F0CB1 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31BD3D1EE95440009F0CB1 /* LandingViewController.swift */; };
 		EC5B81CB1EE7FDA700B29A5E /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5B81CA1EE7FDA700B29A5E /* EventsViewController.swift */; };
 		EC5B81CE1EE7FE2300B29A5E /* MainTabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5B81CD1EE7FE2300B29A5E /* MainTabsViewController.swift */; };
 /* End PBXBuildFile section */
@@ -28,9 +149,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		099A98A59A0C3912F21D476D /* Pods-Loop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Loop/Pods-Loop.release.xcconfig"; sourceTree = "<group>"; };
+		70ED5293195310F1BE8EC4E7 /* Pods_Loop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Loop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA49648349788963533C48FC /* Pods-Loop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Loop/Pods-Loop.debug.xcconfig"; sourceTree = "<group>"; };
 		EC2F835C1EE7A29A00A8D4F1 /* Loop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2F835F1EE7A29A00A8D4F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC2F83611EE7A29A00A8D4F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC2F83641EE7A29A00A8D4F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC2F83661EE7A29A00A8D4F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC2F83691EE7A29A00A8D4F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +161,127 @@
 		EC2F83701EE7A29A00A8D4F1 /* LoopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2F83741EE7A29A00A8D4F1 /* LoopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopTests.swift; sourceTree = "<group>"; };
 		EC2F83761EE7A29A00A8D4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC31BC1A1EE93489009F0CB1 /* BebasNeue Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Bold.otf"; sourceTree = "<group>"; };
+		EC31BC1B1EE93489009F0CB1 /* BebasNeue Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Book.otf"; sourceTree = "<group>"; };
+		EC31BC1C1EE93489009F0CB1 /* BebasNeue Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Book.ttf"; sourceTree = "<group>"; };
+		EC31BC1D1EE93489009F0CB1 /* BebasNeue Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Light.otf"; sourceTree = "<group>"; };
+		EC31BC1E1EE93489009F0CB1 /* BebasNeue Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Light.ttf"; sourceTree = "<group>"; };
+		EC31BC1F1EE93489009F0CB1 /* BebasNeue Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Regular.otf"; sourceTree = "<group>"; };
+		EC31BC201EE93489009F0CB1 /* BebasNeue Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Regular.ttf"; sourceTree = "<group>"; };
+		EC31BC211EE93489009F0CB1 /* BebasNeue Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Thin.otf"; sourceTree = "<group>"; };
+		EC31BC221EE93489009F0CB1 /* BebasNeue Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Thin.ttf"; sourceTree = "<group>"; };
+		EC31BC231EE93489009F0CB1 /* BebasNeue-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Bold.ttf"; sourceTree = "<group>"; };
+		EC31BC241EE93489009F0CB1 /* Gotham-Black(1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Black(1).ttf"; sourceTree = "<group>"; };
+		EC31BC251EE93489009F0CB1 /* GOTHAM-BLACK.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-BLACK.TTF"; sourceTree = "<group>"; };
+		EC31BC261EE93489009F0CB1 /* Gotham-BlackItalic(1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BlackItalic(1).ttf"; sourceTree = "<group>"; };
+		EC31BC271EE93489009F0CB1 /* GOTHAM-BLACKITALIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-BLACKITALIC.TTF"; sourceTree = "<group>"; };
+		EC31BC281EE93489009F0CB1 /* Gotham-Bold(1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold(1).ttf"; sourceTree = "<group>"; };
+		EC31BC291EE93489009F0CB1 /* GOTHAM-BOLD.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-BOLD.TTF"; sourceTree = "<group>"; };
+		EC31BC2A1EE93489009F0CB1 /* Gotham-Bold_0(1).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold_0(1).otf"; sourceTree = "<group>"; };
+		EC31BC2B1EE93489009F0CB1 /* GOTHAM-BOLD_0.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-BOLD_0.OTF"; sourceTree = "<group>"; };
+		EC31BC2C1EE93489009F0CB1 /* Gotham-BoldItalic(1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BoldItalic(1).ttf"; sourceTree = "<group>"; };
+		EC31BC2D1EE93489009F0CB1 /* GOTHAM-BOLDITALIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-BOLDITALIC.TTF"; sourceTree = "<group>"; };
+		EC31BC2E1EE93489009F0CB1 /* Gotham-BookItalic_0(1).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BookItalic_0(1).otf"; sourceTree = "<group>"; };
+		EC31BC2F1EE93489009F0CB1 /* GOTHAM-BOOKITALIC_0.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-BOOKITALIC_0.OTF"; sourceTree = "<group>"; };
+		EC31BC301EE93489009F0CB1 /* Gotham-Light(1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light(1).ttf"; sourceTree = "<group>"; };
+		EC31BC311EE93489009F0CB1 /* GOTHAM-LIGHT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-LIGHT.TTF"; sourceTree = "<group>"; };
+		EC31BC321EE93489009F0CB1 /* Gotham-Light_0(1).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light_0(1).otf"; sourceTree = "<group>"; };
+		EC31BC331EE93489009F0CB1 /* GOTHAM-LIGHT_0.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-LIGHT_0.OTF"; sourceTree = "<group>"; };
+		EC31BC341EE93489009F0CB1 /* Gotham-LightItalic(1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-LightItalic(1).ttf"; sourceTree = "<group>"; };
+		EC31BC351EE93489009F0CB1 /* GOTHAM-LIGHTITALIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-LIGHTITALIC.TTF"; sourceTree = "<group>"; };
+		EC31BC361EE93489009F0CB1 /* Gotham-Medium(1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Medium(1).ttf"; sourceTree = "<group>"; };
+		EC31BC371EE93489009F0CB1 /* GOTHAM-MEDIUM.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-MEDIUM.TTF"; sourceTree = "<group>"; };
+		EC31BC381EE93489009F0CB1 /* Gotham-MediumItalic(1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-MediumItalic(1).ttf"; sourceTree = "<group>"; };
+		EC31BC391EE93489009F0CB1 /* GOTHAM-MEDIUMITALIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-MEDIUMITALIC.TTF"; sourceTree = "<group>"; };
+		EC31BC3A1EE93489009F0CB1 /* Gotham-Thin(1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Thin(1).ttf"; sourceTree = "<group>"; };
+		EC31BC3B1EE93489009F0CB1 /* GOTHAM-THIN.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-THIN.TTF"; sourceTree = "<group>"; };
+		EC31BC3C1EE93489009F0CB1 /* Gotham-ThinItalic(1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-ThinItalic(1).ttf"; sourceTree = "<group>"; };
+		EC31BC3D1EE93489009F0CB1 /* GOTHAM-THINITALIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-THINITALIC.TTF"; sourceTree = "<group>"; };
+		EC31BC3E1EE93489009F0CB1 /* Gotham-Ultra(1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Ultra(1).ttf"; sourceTree = "<group>"; };
+		EC31BC3F1EE93489009F0CB1 /* GOTHAM-ULTRA.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-ULTRA.TTF"; sourceTree = "<group>"; };
+		EC31BC401EE93489009F0CB1 /* Gotham-UltraItalic(1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-UltraItalic(1).ttf"; sourceTree = "<group>"; };
+		EC31BC411EE93489009F0CB1 /* GOTHAM-ULTRAITALIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-ULTRAITALIC.TTF"; sourceTree = "<group>"; };
+		EC31BC421EE93489009F0CB1 /* Gotham-XLight(1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLight(1).ttf"; sourceTree = "<group>"; };
+		EC31BC431EE93489009F0CB1 /* GOTHAM-XLIGHT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-XLIGHT.TTF"; sourceTree = "<group>"; };
+		EC31BC441EE93489009F0CB1 /* Gotham-XLightItalic(1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLightItalic(1).ttf"; sourceTree = "<group>"; };
+		EC31BC451EE93489009F0CB1 /* GOTHAM-XLIGHTITALIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GOTHAM-XLIGHTITALIC.TTF"; sourceTree = "<group>"; };
+		EC31BC461EE93489009F0CB1 /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
+		EC31BC471EE93489009F0CB1 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		EC31BC481EE93489009F0CB1 /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		EC31BC491EE93489009F0CB1 /* Montserrat-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.otf"; sourceTree = "<group>"; };
+		EC31BC4A1EE93489009F0CB1 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		EC31BC4B1EE93489009F0CB1 /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.otf"; sourceTree = "<group>"; };
+		EC31BC4C1EE93489009F0CB1 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		EC31BC4D1EE93489009F0CB1 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		EC31BC4E1EE93489009F0CB1 /* Montserrat-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.otf"; sourceTree = "<group>"; };
+		EC31BC4F1EE93489009F0CB1 /* MontserratAlternates-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Black.otf"; sourceTree = "<group>"; };
+		EC31BC501EE93489009F0CB1 /* MontserratAlternates-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Bold.otf"; sourceTree = "<group>"; };
+		EC31BC511EE93489009F0CB1 /* MontserratAlternates-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraBold.otf"; sourceTree = "<group>"; };
+		EC31BC521EE93489009F0CB1 /* MontserratAlternates-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraLight.otf"; sourceTree = "<group>"; };
+		EC31BC531EE93489009F0CB1 /* MontserratAlternates-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Light.otf"; sourceTree = "<group>"; };
+		EC31BC541EE93489009F0CB1 /* MontserratAlternates-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Medium.otf"; sourceTree = "<group>"; };
+		EC31BC551EE93489009F0CB1 /* MontserratAlternates-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Regular.otf"; sourceTree = "<group>"; };
+		EC31BC561EE93489009F0CB1 /* MontserratAlternates-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-SemiBold.otf"; sourceTree = "<group>"; };
+		EC31BC571EE93489009F0CB1 /* MontserratAlternates-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Thin.otf"; sourceTree = "<group>"; };
+		EC31BC581EE93489009F0CB1 /* MuseoSansCyrl 500.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSansCyrl 500.otf"; sourceTree = "<group>"; };
+		EC31BC591EE93489009F0CB1 /* MuseoSansCyrl 700.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSansCyrl 700.otf"; sourceTree = "<group>"; };
+		EC31BC5A1EE93489009F0CB1 /* MuseoSansCyrl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSansCyrl.otf; sourceTree = "<group>"; };
+		EC31BC5B1EE93489009F0CB1 /* MuseoSansCyrl_0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSansCyrl_0.otf; sourceTree = "<group>"; };
+		EC31BC5C1EE93489009F0CB1 /* MuseoSansCyrl_1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSansCyrl_1.otf; sourceTree = "<group>"; };
+		EC31BC5D1EE93489009F0CB1 /* MuseoSansCyrl_2 2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSansCyrl_2 2.otf"; sourceTree = "<group>"; };
+		EC31BC5E1EE93489009F0CB1 /* MuseoSansCyrl_2-1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSansCyrl_2-1.otf"; sourceTree = "<group>"; };
+		EC31BC5F1EE93489009F0CB1 /* MuseoSansCyrl_2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSansCyrl_2.otf; sourceTree = "<group>"; };
+		EC31BC601EE93489009F0CB1 /* MuseoSansCyrl_3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSansCyrl_3.otf; sourceTree = "<group>"; };
+		EC31BC611EE93489009F0CB1 /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black.ttf"; sourceTree = "<group>"; };
+		EC31BC621EE93489009F0CB1 /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
+		EC31BC631EE93489009F0CB1 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		EC31BC641EE93489009F0CB1 /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EC31BC651EE93489009F0CB1 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		EC31BC661EE93489009F0CB1 /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		EC31BC671EE93489009F0CB1 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		EC31BC681EE93489009F0CB1 /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		EC31BC691EE93489009F0CB1 /* Raleway-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Italic.ttf"; sourceTree = "<group>"; };
+		EC31BC6A1EE93489009F0CB1 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		EC31BC6B1EE93489009F0CB1 /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-LightItalic.ttf"; sourceTree = "<group>"; };
+		EC31BC6C1EE93489009F0CB1 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		EC31BC6D1EE93489009F0CB1 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
+		EC31BC6E1EE93489009F0CB1 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		EC31BC6F1EE93489009F0CB1 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		EC31BC701EE93489009F0CB1 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		EC31BC711EE93489009F0CB1 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		EC31BC721EE93489009F0CB1 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
+		EC31BC731EE93489009F0CB1 /* SF-UI-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Bold.otf"; sourceTree = "<group>"; };
+		EC31BC741EE93489009F0CB1 /* SF-UI-Text-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-BoldItalic.otf"; sourceTree = "<group>"; };
+		EC31BC751EE93489009F0CB1 /* SF-UI-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Heavy.otf"; sourceTree = "<group>"; };
+		EC31BC761EE93489009F0CB1 /* SF-UI-Text-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-HeavyItalic.otf"; sourceTree = "<group>"; };
+		EC31BC771EE93489009F0CB1 /* SF-UI-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Light.otf"; sourceTree = "<group>"; };
+		EC31BC781EE93489009F0CB1 /* SF-UI-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		EC31BC791EE93489009F0CB1 /* SF-UI-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Medium.otf"; sourceTree = "<group>"; };
+		EC31BC7A1EE93489009F0CB1 /* SF-UI-Text-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-MediumItalic.otf"; sourceTree = "<group>"; };
+		EC31BC7B1EE93489009F0CB1 /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		EC31BC7C1EE93489009F0CB1 /* SF-UI-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-RegularItalic.otf"; sourceTree = "<group>"; };
+		EC31BC7D1EE93489009F0CB1 /* SF-UI-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold.otf"; sourceTree = "<group>"; };
+		EC31BC7E1EE93489009F0CB1 /* SF-UI-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		EC31BC7F1EE93489009F0CB1 /* SFUIDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Bold.otf"; sourceTree = "<group>"; };
+		EC31BC801EE93489009F0CB1 /* SFUIDisplay-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Light.otf"; sourceTree = "<group>"; };
+		EC31BC811EE93489009F0CB1 /* SFUIDisplay-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Medium.otf"; sourceTree = "<group>"; };
+		EC31BC821EE93489009F0CB1 /* SFUIDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Regular.otf"; sourceTree = "<group>"; };
+		EC31BC831EE93489009F0CB1 /* SFUIDisplay-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Semibold.otf"; sourceTree = "<group>"; };
+		EC31BC841EE93489009F0CB1 /* SFUIDisplay-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Thin.otf"; sourceTree = "<group>"; };
+		EC31BC851EE93489009F0CB1 /* SFUIDisplay-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Ultralight.otf"; sourceTree = "<group>"; };
+		EC31BD141EE93D10009F0CB1 /* Signin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Signin.storyboard; sourceTree = "<group>"; };
+		EC31BD171EE93D81009F0CB1 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		EC31BD181EE93D81009F0CB1 /* SiginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiginViewController.swift; sourceTree = "<group>"; };
+		EC31BD191EE93D81009F0CB1 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		EC31BD1A1EE93D81009F0CB1 /* BaseRegisterViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRegisterViewViewController.swift; sourceTree = "<group>"; };
+		EC31BD241EE93E5A009F0CB1 /* VaribleKeyConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaribleKeyConstant.swift; sourceTree = "<group>"; };
+		EC31BD261EE93E5A009F0CB1 /* AppConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfigure.swift; sourceTree = "<group>"; };
+		EC31BD311EE93EEB009F0CB1 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIStoryboard.swift; path = Loop/Common/UIStoryboard.swift; sourceTree = SOURCE_ROOT; };
+		EC31BD341EE94DF6009F0CB1 /* LoopTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopTextField.swift; sourceTree = "<group>"; };
+		EC31BD361EE94E0E009F0CB1 /* LoopButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopButton.swift; sourceTree = "<group>"; };
+		EC31BD391EE94FD4009F0CB1 /* BaseViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewControllerProtocol.swift; sourceTree = "<group>"; };
+		EC31BD3B1EE95128009F0CB1 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = Loop/Common/UIViewController.swift; sourceTree = SOURCE_ROOT; };
+		EC31BD3D1EE95440009F0CB1 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		EC5B81CA1EE7FDA700B29A5E /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		EC5B81CD1EE7FE2300B29A5E /* MainTabsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +291,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B8455715B61433FCD5D8103 /* Pods_Loop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +305,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CB6038807CB86CDE3875CFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA49648349788963533C48FC /* Pods-Loop.debug.xcconfig */,
+				099A98A59A0C3912F21D476D /* Pods-Loop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6A9BFD48EA8EA080171B6E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70ED5293195310F1BE8EC4E7 /* Pods_Loop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC2F83531EE7A29A00A8D4F1 = {
 			isa = PBXGroup;
 			children = (
 				EC2F835E1EE7A29A00A8D4F1 /* Loop */,
 				EC2F83731EE7A29A00A8D4F1 /* LoopTests */,
 				EC2F835D1EE7A29A00A8D4F1 /* Products */,
+				6CB6038807CB86CDE3875CFD /* Pods */,
+				D6A9BFD48EA8EA080171B6E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +345,16 @@
 		EC2F835E1EE7A29A00A8D4F1 /* Loop */ = {
 			isa = PBXGroup;
 			children = (
+				EC31BD331EE94DCE009F0CB1 /* LoopControl */,
+				EC31BCF21EE9349A009F0CB1 /* Common */,
+				EC31BC191EE93489009F0CB1 /* Fonts */,
 				EC5B81C81EE7FD6100B29A5E /* ViewControllers */,
 				EC2F835F1EE7A29A00A8D4F1 /* AppDelegate.swift */,
-				EC2F83611EE7A29A00A8D4F1 /* ViewController.swift */,
 				EC2F83631EE7A29A00A8D4F1 /* Main.storyboard */,
 				EC2F83661EE7A29A00A8D4F1 /* Assets.xcassets */,
 				EC2F83681EE7A29A00A8D4F1 /* LaunchScreen.storyboard */,
 				EC2F836B1EE7A29A00A8D4F1 /* Info.plist */,
+				EC31BD141EE93D10009F0CB1 /* Signin.storyboard */,
 			);
 			path = Loop;
 			sourceTree = "<group>";
@@ -101,9 +368,167 @@
 			path = LoopTests;
 			sourceTree = "<group>";
 		};
+		EC31BC191EE93489009F0CB1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BC1A1EE93489009F0CB1 /* BebasNeue Bold.otf */,
+				EC31BC1B1EE93489009F0CB1 /* BebasNeue Book.otf */,
+				EC31BC1C1EE93489009F0CB1 /* BebasNeue Book.ttf */,
+				EC31BC1D1EE93489009F0CB1 /* BebasNeue Light.otf */,
+				EC31BC1E1EE93489009F0CB1 /* BebasNeue Light.ttf */,
+				EC31BC1F1EE93489009F0CB1 /* BebasNeue Regular.otf */,
+				EC31BC201EE93489009F0CB1 /* BebasNeue Regular.ttf */,
+				EC31BC211EE93489009F0CB1 /* BebasNeue Thin.otf */,
+				EC31BC221EE93489009F0CB1 /* BebasNeue Thin.ttf */,
+				EC31BC231EE93489009F0CB1 /* BebasNeue-Bold.ttf */,
+				EC31BC241EE93489009F0CB1 /* Gotham-Black(1).ttf */,
+				EC31BC251EE93489009F0CB1 /* GOTHAM-BLACK.TTF */,
+				EC31BC261EE93489009F0CB1 /* Gotham-BlackItalic(1).ttf */,
+				EC31BC271EE93489009F0CB1 /* GOTHAM-BLACKITALIC.TTF */,
+				EC31BC281EE93489009F0CB1 /* Gotham-Bold(1).ttf */,
+				EC31BC291EE93489009F0CB1 /* GOTHAM-BOLD.TTF */,
+				EC31BC2A1EE93489009F0CB1 /* Gotham-Bold_0(1).otf */,
+				EC31BC2B1EE93489009F0CB1 /* GOTHAM-BOLD_0.OTF */,
+				EC31BC2C1EE93489009F0CB1 /* Gotham-BoldItalic(1).ttf */,
+				EC31BC2D1EE93489009F0CB1 /* GOTHAM-BOLDITALIC.TTF */,
+				EC31BC2E1EE93489009F0CB1 /* Gotham-BookItalic_0(1).otf */,
+				EC31BC2F1EE93489009F0CB1 /* GOTHAM-BOOKITALIC_0.OTF */,
+				EC31BC301EE93489009F0CB1 /* Gotham-Light(1).ttf */,
+				EC31BC311EE93489009F0CB1 /* GOTHAM-LIGHT.TTF */,
+				EC31BC321EE93489009F0CB1 /* Gotham-Light_0(1).otf */,
+				EC31BC331EE93489009F0CB1 /* GOTHAM-LIGHT_0.OTF */,
+				EC31BC341EE93489009F0CB1 /* Gotham-LightItalic(1).ttf */,
+				EC31BC351EE93489009F0CB1 /* GOTHAM-LIGHTITALIC.TTF */,
+				EC31BC361EE93489009F0CB1 /* Gotham-Medium(1).ttf */,
+				EC31BC371EE93489009F0CB1 /* GOTHAM-MEDIUM.TTF */,
+				EC31BC381EE93489009F0CB1 /* Gotham-MediumItalic(1).ttf */,
+				EC31BC391EE93489009F0CB1 /* GOTHAM-MEDIUMITALIC.TTF */,
+				EC31BC3A1EE93489009F0CB1 /* Gotham-Thin(1).ttf */,
+				EC31BC3B1EE93489009F0CB1 /* GOTHAM-THIN.TTF */,
+				EC31BC3C1EE93489009F0CB1 /* Gotham-ThinItalic(1).ttf */,
+				EC31BC3D1EE93489009F0CB1 /* GOTHAM-THINITALIC.TTF */,
+				EC31BC3E1EE93489009F0CB1 /* Gotham-Ultra(1).ttf */,
+				EC31BC3F1EE93489009F0CB1 /* GOTHAM-ULTRA.TTF */,
+				EC31BC401EE93489009F0CB1 /* Gotham-UltraItalic(1).ttf */,
+				EC31BC411EE93489009F0CB1 /* GOTHAM-ULTRAITALIC.TTF */,
+				EC31BC421EE93489009F0CB1 /* Gotham-XLight(1).ttf */,
+				EC31BC431EE93489009F0CB1 /* GOTHAM-XLIGHT.TTF */,
+				EC31BC441EE93489009F0CB1 /* Gotham-XLightItalic(1).ttf */,
+				EC31BC451EE93489009F0CB1 /* GOTHAM-XLIGHTITALIC.TTF */,
+				EC31BC461EE93489009F0CB1 /* Montserrat-Black.otf */,
+				EC31BC471EE93489009F0CB1 /* Montserrat-Bold.otf */,
+				EC31BC481EE93489009F0CB1 /* Montserrat-ExtraBold.otf */,
+				EC31BC491EE93489009F0CB1 /* Montserrat-ExtraLight.otf */,
+				EC31BC4A1EE93489009F0CB1 /* Montserrat-Light.otf */,
+				EC31BC4B1EE93489009F0CB1 /* Montserrat-Medium.otf */,
+				EC31BC4C1EE93489009F0CB1 /* Montserrat-Regular.otf */,
+				EC31BC4D1EE93489009F0CB1 /* Montserrat-SemiBold.otf */,
+				EC31BC4E1EE93489009F0CB1 /* Montserrat-Thin.otf */,
+				EC31BC4F1EE93489009F0CB1 /* MontserratAlternates-Black.otf */,
+				EC31BC501EE93489009F0CB1 /* MontserratAlternates-Bold.otf */,
+				EC31BC511EE93489009F0CB1 /* MontserratAlternates-ExtraBold.otf */,
+				EC31BC521EE93489009F0CB1 /* MontserratAlternates-ExtraLight.otf */,
+				EC31BC531EE93489009F0CB1 /* MontserratAlternates-Light.otf */,
+				EC31BC541EE93489009F0CB1 /* MontserratAlternates-Medium.otf */,
+				EC31BC551EE93489009F0CB1 /* MontserratAlternates-Regular.otf */,
+				EC31BC561EE93489009F0CB1 /* MontserratAlternates-SemiBold.otf */,
+				EC31BC571EE93489009F0CB1 /* MontserratAlternates-Thin.otf */,
+				EC31BC581EE93489009F0CB1 /* MuseoSansCyrl 500.otf */,
+				EC31BC591EE93489009F0CB1 /* MuseoSansCyrl 700.otf */,
+				EC31BC5A1EE93489009F0CB1 /* MuseoSansCyrl.otf */,
+				EC31BC5B1EE93489009F0CB1 /* MuseoSansCyrl_0.otf */,
+				EC31BC5C1EE93489009F0CB1 /* MuseoSansCyrl_1.otf */,
+				EC31BC5D1EE93489009F0CB1 /* MuseoSansCyrl_2 2.otf */,
+				EC31BC5E1EE93489009F0CB1 /* MuseoSansCyrl_2-1.otf */,
+				EC31BC5F1EE93489009F0CB1 /* MuseoSansCyrl_2.otf */,
+				EC31BC601EE93489009F0CB1 /* MuseoSansCyrl_3.otf */,
+				EC31BC611EE93489009F0CB1 /* Raleway-Black.ttf */,
+				EC31BC621EE93489009F0CB1 /* Raleway-BlackItalic.ttf */,
+				EC31BC631EE93489009F0CB1 /* Raleway-Bold.ttf */,
+				EC31BC641EE93489009F0CB1 /* Raleway-BoldItalic.ttf */,
+				EC31BC651EE93489009F0CB1 /* Raleway-ExtraBold.ttf */,
+				EC31BC661EE93489009F0CB1 /* Raleway-ExtraBoldItalic.ttf */,
+				EC31BC671EE93489009F0CB1 /* Raleway-ExtraLight.ttf */,
+				EC31BC681EE93489009F0CB1 /* Raleway-ExtraLightItalic.ttf */,
+				EC31BC691EE93489009F0CB1 /* Raleway-Italic.ttf */,
+				EC31BC6A1EE93489009F0CB1 /* Raleway-Light.ttf */,
+				EC31BC6B1EE93489009F0CB1 /* Raleway-LightItalic.ttf */,
+				EC31BC6C1EE93489009F0CB1 /* Raleway-Medium.ttf */,
+				EC31BC6D1EE93489009F0CB1 /* Raleway-MediumItalic.ttf */,
+				EC31BC6E1EE93489009F0CB1 /* Raleway-Regular.ttf */,
+				EC31BC6F1EE93489009F0CB1 /* Raleway-SemiBold.ttf */,
+				EC31BC701EE93489009F0CB1 /* Raleway-SemiBoldItalic.ttf */,
+				EC31BC711EE93489009F0CB1 /* Raleway-Thin.ttf */,
+				EC31BC721EE93489009F0CB1 /* Raleway-ThinItalic.ttf */,
+				EC31BC731EE93489009F0CB1 /* SF-UI-Text-Bold.otf */,
+				EC31BC741EE93489009F0CB1 /* SF-UI-Text-BoldItalic.otf */,
+				EC31BC751EE93489009F0CB1 /* SF-UI-Text-Heavy.otf */,
+				EC31BC761EE93489009F0CB1 /* SF-UI-Text-HeavyItalic.otf */,
+				EC31BC771EE93489009F0CB1 /* SF-UI-Text-Light.otf */,
+				EC31BC781EE93489009F0CB1 /* SF-UI-Text-LightItalic.otf */,
+				EC31BC791EE93489009F0CB1 /* SF-UI-Text-Medium.otf */,
+				EC31BC7A1EE93489009F0CB1 /* SF-UI-Text-MediumItalic.otf */,
+				EC31BC7B1EE93489009F0CB1 /* SF-UI-Text-Regular.otf */,
+				EC31BC7C1EE93489009F0CB1 /* SF-UI-Text-RegularItalic.otf */,
+				EC31BC7D1EE93489009F0CB1 /* SF-UI-Text-Semibold.otf */,
+				EC31BC7E1EE93489009F0CB1 /* SF-UI-Text-SemiboldItalic.otf */,
+				EC31BC7F1EE93489009F0CB1 /* SFUIDisplay-Bold.otf */,
+				EC31BC801EE93489009F0CB1 /* SFUIDisplay-Light.otf */,
+				EC31BC811EE93489009F0CB1 /* SFUIDisplay-Medium.otf */,
+				EC31BC821EE93489009F0CB1 /* SFUIDisplay-Regular.otf */,
+				EC31BC831EE93489009F0CB1 /* SFUIDisplay-Semibold.otf */,
+				EC31BC841EE93489009F0CB1 /* SFUIDisplay-Thin.otf */,
+				EC31BC851EE93489009F0CB1 /* SFUIDisplay-Ultralight.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EC31BCF21EE9349A009F0CB1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BD241EE93E5A009F0CB1 /* VaribleKeyConstant.swift */,
+				EC31BD261EE93E5A009F0CB1 /* AppConfigure.swift */,
+				EC31BD311EE93EEB009F0CB1 /* UIStoryboard.swift */,
+				EC31BD3B1EE95128009F0CB1 /* UIViewController.swift */,
+			);
+			name = Common;
+			path = common;
+			sourceTree = "<group>";
+		};
+		EC31BD161EE93D6F009F0CB1 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BD171EE93D81009F0CB1 /* SignupViewController.swift */,
+				EC31BD181EE93D81009F0CB1 /* SiginViewController.swift */,
+				EC31BD191EE93D81009F0CB1 /* ForgotPasswordViewController.swift */,
+				EC31BD1A1EE93D81009F0CB1 /* BaseRegisterViewViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		EC31BD331EE94DCE009F0CB1 /* LoopControl */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BD341EE94DF6009F0CB1 /* LoopTextField.swift */,
+				EC31BD361EE94E0E009F0CB1 /* LoopButton.swift */,
+			);
+			path = LoopControl;
+			sourceTree = "<group>";
+		};
+		EC31BD381EE94FC5009F0CB1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EC31BD391EE94FD4009F0CB1 /* BaseViewControllerProtocol.swift */,
+				EC31BD3D1EE95440009F0CB1 /* LandingViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		EC5B81C81EE7FD6100B29A5E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				EC31BD381EE94FC5009F0CB1 /* Base */,
+				EC31BD161EE93D6F009F0CB1 /* Register */,
 				EC5B81CC1EE7FDC000B29A5E /* Home */,
 				EC5B81C91EE7FD8B00B29A5E /* Events */,
 			);
@@ -133,9 +558,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC2F83791EE7A29A00A8D4F1 /* Build configuration list for PBXNativeTarget "Loop" */;
 			buildPhases = (
+				D8D8F340E765B9C244E978BB /* [CP] Check Pods Manifest.lock */,
 				EC2F83581EE7A29A00A8D4F1 /* Sources */,
 				EC2F83591EE7A29A00A8D4F1 /* Frameworks */,
 				EC2F835A1EE7A29A00A8D4F1 /* Resources */,
+				7EF3A973F6B95C26AABC526E /* [CP] Embed Pods Frameworks */,
+				C2B18DCD6B0A1F1F49248903 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,9 +637,118 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC31BCA61EE93489009F0CB1 /* Gotham-Thin(1).ttf in Resources */,
+				EC31BCA21EE93489009F0CB1 /* Gotham-Medium(1).ttf in Resources */,
+				EC31BCC21EE93489009F0CB1 /* MontserratAlternates-SemiBold.otf in Resources */,
+				EC31BCD61EE93489009F0CB1 /* Raleway-Light.ttf in Resources */,
+				EC31BCCA1EE93489009F0CB1 /* MuseoSansCyrl_2-1.otf in Resources */,
+				EC31BCB31EE93489009F0CB1 /* Montserrat-Bold.otf in Resources */,
+				EC31BCC11EE93489009F0CB1 /* MontserratAlternates-Regular.otf in Resources */,
+				EC31BC891EE93489009F0CB1 /* BebasNeue Light.otf in Resources */,
+				EC31BC9B1EE93489009F0CB1 /* GOTHAM-BOOKITALIC_0.OTF in Resources */,
+				EC31BCB21EE93489009F0CB1 /* Montserrat-Black.otf in Resources */,
+				EC31BCEE1EE93489009F0CB1 /* SFUIDisplay-Regular.otf in Resources */,
+				EC31BC8C1EE93489009F0CB1 /* BebasNeue Regular.ttf in Resources */,
+				EC31BCC71EE93489009F0CB1 /* MuseoSansCyrl_0.otf in Resources */,
+				EC31BCEA1EE93489009F0CB1 /* SF-UI-Text-SemiboldItalic.otf in Resources */,
+				EC31BC971EE93489009F0CB1 /* GOTHAM-BOLD_0.OTF in Resources */,
+				EC31BCA91EE93489009F0CB1 /* GOTHAM-THINITALIC.TTF in Resources */,
+				EC31BD151EE93D10009F0CB1 /* Signin.storyboard in Resources */,
+				EC31BCBA1EE93489009F0CB1 /* Montserrat-Thin.otf in Resources */,
+				EC31BCBC1EE93489009F0CB1 /* MontserratAlternates-Bold.otf in Resources */,
+				EC31BCED1EE93489009F0CB1 /* SFUIDisplay-Medium.otf in Resources */,
+				EC31BCA81EE93489009F0CB1 /* Gotham-ThinItalic(1).ttf in Resources */,
+				EC31BC8A1EE93489009F0CB1 /* BebasNeue Light.ttf in Resources */,
+				EC31BCC81EE93489009F0CB1 /* MuseoSansCyrl_1.otf in Resources */,
+				EC31BCCB1EE93489009F0CB1 /* MuseoSansCyrl_2.otf in Resources */,
+				EC31BCA51EE93489009F0CB1 /* GOTHAM-MEDIUMITALIC.TTF in Resources */,
+				EC31BCD41EE93489009F0CB1 /* Raleway-ExtraLightItalic.ttf in Resources */,
+				EC31BC981EE93489009F0CB1 /* Gotham-BoldItalic(1).ttf in Resources */,
+				EC31BC871EE93489009F0CB1 /* BebasNeue Book.otf in Resources */,
+				EC31BCBF1EE93489009F0CB1 /* MontserratAlternates-Light.otf in Resources */,
+				EC31BC951EE93489009F0CB1 /* GOTHAM-BOLD.TTF in Resources */,
+				EC31BCBE1EE93489009F0CB1 /* MontserratAlternates-ExtraLight.otf in Resources */,
+				EC31BCBD1EE93489009F0CB1 /* MontserratAlternates-ExtraBold.otf in Resources */,
+				EC31BC9D1EE93489009F0CB1 /* GOTHAM-LIGHT.TTF in Resources */,
+				EC31BCD51EE93489009F0CB1 /* Raleway-Italic.ttf in Resources */,
+				EC31BCE81EE93489009F0CB1 /* SF-UI-Text-RegularItalic.otf in Resources */,
+				EC31BCF01EE93489009F0CB1 /* SFUIDisplay-Thin.otf in Resources */,
+				EC31BCE71EE93489009F0CB1 /* SF-UI-Text-Regular.otf in Resources */,
+				EC31BCA11EE93489009F0CB1 /* GOTHAM-LIGHTITALIC.TTF in Resources */,
+				EC31BCD11EE93489009F0CB1 /* Raleway-ExtraBold.ttf in Resources */,
+				EC31BC881EE93489009F0CB1 /* BebasNeue Book.ttf in Resources */,
+				EC31BC861EE93489009F0CB1 /* BebasNeue Bold.otf in Resources */,
+				EC31BC941EE93489009F0CB1 /* Gotham-Bold(1).ttf in Resources */,
+				EC31BCA01EE93489009F0CB1 /* Gotham-LightItalic(1).ttf in Resources */,
+				EC31BCDF1EE93489009F0CB1 /* SF-UI-Text-Bold.otf in Resources */,
+				EC31BCDB1EE93489009F0CB1 /* Raleway-SemiBold.ttf in Resources */,
 				EC2F836A1EE7A29A00A8D4F1 /* LaunchScreen.storyboard in Resources */,
+				EC31BCE21EE93489009F0CB1 /* SF-UI-Text-HeavyItalic.otf in Resources */,
+				EC31BC921EE93489009F0CB1 /* Gotham-BlackItalic(1).ttf in Resources */,
+				EC31BC901EE93489009F0CB1 /* Gotham-Black(1).ttf in Resources */,
+				EC31BCD21EE93489009F0CB1 /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				EC31BC911EE93489009F0CB1 /* GOTHAM-BLACK.TTF in Resources */,
 				EC2F83671EE7A29A00A8D4F1 /* Assets.xcassets in Resources */,
+				EC31BC8D1EE93489009F0CB1 /* BebasNeue Thin.otf in Resources */,
+				EC31BCC31EE93489009F0CB1 /* MontserratAlternates-Thin.otf in Resources */,
+				EC31BCDC1EE93489009F0CB1 /* Raleway-SemiBoldItalic.ttf in Resources */,
+				EC31BCE61EE93489009F0CB1 /* SF-UI-Text-MediumItalic.otf in Resources */,
+				EC31BCC51EE93489009F0CB1 /* MuseoSansCyrl 700.otf in Resources */,
+				EC31BCC61EE93489009F0CB1 /* MuseoSansCyrl.otf in Resources */,
+				EC31BCDD1EE93489009F0CB1 /* Raleway-Thin.ttf in Resources */,
+				EC31BC9A1EE93489009F0CB1 /* Gotham-BookItalic_0(1).otf in Resources */,
+				EC31BCD71EE93489009F0CB1 /* Raleway-LightItalic.ttf in Resources */,
+				EC31BC961EE93489009F0CB1 /* Gotham-Bold_0(1).otf in Resources */,
+				EC31BCE31EE93489009F0CB1 /* SF-UI-Text-Light.otf in Resources */,
+				EC31BCC01EE93489009F0CB1 /* MontserratAlternates-Medium.otf in Resources */,
+				EC31BCCE1EE93489009F0CB1 /* Raleway-BlackItalic.ttf in Resources */,
+				EC31BCD91EE93489009F0CB1 /* Raleway-MediumItalic.ttf in Resources */,
+				EC31BCB91EE93489009F0CB1 /* Montserrat-SemiBold.otf in Resources */,
+				EC31BCF11EE93489009F0CB1 /* SFUIDisplay-Ultralight.otf in Resources */,
 				EC2F83651EE7A29A00A8D4F1 /* Main.storyboard in Resources */,
+				EC31BCE01EE93489009F0CB1 /* SF-UI-Text-BoldItalic.otf in Resources */,
+				EC31BCB41EE93489009F0CB1 /* Montserrat-ExtraBold.otf in Resources */,
+				EC31BCA41EE93489009F0CB1 /* Gotham-MediumItalic(1).ttf in Resources */,
+				EC31BCA71EE93489009F0CB1 /* GOTHAM-THIN.TTF in Resources */,
+				EC31BCC41EE93489009F0CB1 /* MuseoSansCyrl 500.otf in Resources */,
+				EC31BCE11EE93489009F0CB1 /* SF-UI-Text-Heavy.otf in Resources */,
+				EC31BCDE1EE93489009F0CB1 /* Raleway-ThinItalic.ttf in Resources */,
+				EC31BCAB1EE93489009F0CB1 /* GOTHAM-ULTRA.TTF in Resources */,
+				EC31BCE41EE93489009F0CB1 /* SF-UI-Text-LightItalic.otf in Resources */,
+				EC31BCB11EE93489009F0CB1 /* GOTHAM-XLIGHTITALIC.TTF in Resources */,
+				EC31BCB81EE93489009F0CB1 /* Montserrat-Regular.otf in Resources */,
+				EC31BCD31EE93489009F0CB1 /* Raleway-ExtraLight.ttf in Resources */,
+				EC31BCAE1EE93489009F0CB1 /* Gotham-XLight(1).ttf in Resources */,
+				EC31BC8B1EE93489009F0CB1 /* BebasNeue Regular.otf in Resources */,
+				EC31BC9E1EE93489009F0CB1 /* Gotham-Light_0(1).otf in Resources */,
+				EC31BCD01EE93489009F0CB1 /* Raleway-BoldItalic.ttf in Resources */,
+				EC31BCCC1EE93489009F0CB1 /* MuseoSansCyrl_3.otf in Resources */,
+				EC31BC8E1EE93489009F0CB1 /* BebasNeue Thin.ttf in Resources */,
+				EC31BC9C1EE93489009F0CB1 /* Gotham-Light(1).ttf in Resources */,
+				EC31BCEF1EE93489009F0CB1 /* SFUIDisplay-Semibold.otf in Resources */,
+				EC31BC9F1EE93489009F0CB1 /* GOTHAM-LIGHT_0.OTF in Resources */,
+				EC31BCEC1EE93489009F0CB1 /* SFUIDisplay-Light.otf in Resources */,
+				EC31BCE91EE93489009F0CB1 /* SF-UI-Text-Semibold.otf in Resources */,
+				EC31BCEB1EE93489009F0CB1 /* SFUIDisplay-Bold.otf in Resources */,
+				EC31BCAC1EE93489009F0CB1 /* Gotham-UltraItalic(1).ttf in Resources */,
+				EC31BC8F1EE93489009F0CB1 /* BebasNeue-Bold.ttf in Resources */,
+				EC31BCCF1EE93489009F0CB1 /* Raleway-Bold.ttf in Resources */,
+				EC31BCB61EE93489009F0CB1 /* Montserrat-Light.otf in Resources */,
+				EC31BCD81EE93489009F0CB1 /* Raleway-Medium.ttf in Resources */,
+				EC31BCDA1EE93489009F0CB1 /* Raleway-Regular.ttf in Resources */,
+				EC31BCC91EE93489009F0CB1 /* MuseoSansCyrl_2 2.otf in Resources */,
+				EC31BCE51EE93489009F0CB1 /* SF-UI-Text-Medium.otf in Resources */,
+				EC31BCB51EE93489009F0CB1 /* Montserrat-ExtraLight.otf in Resources */,
+				EC31BCA31EE93489009F0CB1 /* GOTHAM-MEDIUM.TTF in Resources */,
+				EC31BCBB1EE93489009F0CB1 /* MontserratAlternates-Black.otf in Resources */,
+				EC31BCAD1EE93489009F0CB1 /* GOTHAM-ULTRAITALIC.TTF in Resources */,
+				EC31BCAF1EE93489009F0CB1 /* GOTHAM-XLIGHT.TTF in Resources */,
+				EC31BC931EE93489009F0CB1 /* GOTHAM-BLACKITALIC.TTF in Resources */,
+				EC31BCB01EE93489009F0CB1 /* Gotham-XLightItalic(1).ttf in Resources */,
+				EC31BCB71EE93489009F0CB1 /* Montserrat-Medium.otf in Resources */,
+				EC31BCAA1EE93489009F0CB1 /* Gotham-Ultra(1).ttf in Resources */,
+				EC31BC991EE93489009F0CB1 /* GOTHAM-BOLDITALIC.TTF in Resources */,
+				EC31BCCD1EE93489009F0CB1 /* Raleway-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,15 +761,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7EF3A973F6B95C26AABC526E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Loop/Pods-Loop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B18DCD6B0A1F1F49248903 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Loop/Pods-Loop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8D8F340E765B9C244E978BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC2F83581EE7A29A00A8D4F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC2F83621EE7A29A00A8D4F1 /* ViewController.swift in Sources */,
+				EC31BD3C1EE95128009F0CB1 /* UIViewController.swift in Sources */,
+				EC31BD2F1EE93E5A009F0CB1 /* AppConfigure.swift in Sources */,
+				EC31BD3E1EE95440009F0CB1 /* LandingViewController.swift in Sources */,
+				EC31BD3A1EE94FD4009F0CB1 /* BaseViewControllerProtocol.swift in Sources */,
+				EC31BD1B1EE93D81009F0CB1 /* SignupViewController.swift in Sources */,
+				EC31BD1C1EE93D81009F0CB1 /* SiginViewController.swift in Sources */,
+				EC31BD321EE93EEB009F0CB1 /* UIStoryboard.swift in Sources */,
 				EC5B81CE1EE7FE2300B29A5E /* MainTabsViewController.swift in Sources */,
 				EC2F83601EE7A29A00A8D4F1 /* AppDelegate.swift in Sources */,
+				EC31BD1D1EE93D81009F0CB1 /* ForgotPasswordViewController.swift in Sources */,
+				EC31BD2D1EE93E5A009F0CB1 /* VaribleKeyConstant.swift in Sources */,
 				EC5B81CB1EE7FDA700B29A5E /* EventsViewController.swift in Sources */,
+				EC31BD371EE94E0E009F0CB1 /* LoopButton.swift in Sources */,
+				EC31BD1E1EE93D81009F0CB1 /* BaseRegisterViewViewController.swift in Sources */,
+				EC31BD351EE94DF6009F0CB1 /* LoopTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +967,7 @@
 		};
 		EC2F837A1EE7A29A00A8D4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA49648349788963533C48FC /* Pods-Loop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Loop/Info.plist;
@@ -383,6 +980,7 @@
 		};
 		EC2F837B1EE7A29A00A8D4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099A98A59A0C3912F21D476D /* Pods-Loop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Loop/Info.plist;
