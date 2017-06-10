@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="152" id="KGk-i7-Jjw" customClass="TitleAndCameraTableViewCell" customModule="Loop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="396" height="152"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="396" height="151.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event Title:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSc-4A-op0">
+                        <rect key="frame" x="15" y="61.5" width="118.5" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                        <color key="textColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RAVE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X24-dd-OwS">
+                        <rect key="frame" x="148.5" y="62" width="58" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-photo-camera" translatesAutoresizingMaskIntoConstraints="NO" id="GUG-z2-2gt">
+                        <rect key="frame" x="298" y="48" width="83" height="57"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jt5-jW-hLa" customClass="LoopButton" customModule="Loop" customModuleProvider="target">
+                        <rect key="frame" x="298" y="48" width="83" height="57"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="83" id="sAS-Pj-Ffa"/>
+                            <constraint firstAttribute="height" constant="57" id="vm5-Db-fTy"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="buttonCameraClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="odr-kx-edJ"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="X24-dd-OwS" firstAttribute="leading" secondItem="tSc-4A-op0" secondAttribute="trailing" constant="15" id="0uS-R1-ZaK"/>
+                    <constraint firstItem="X24-dd-OwS" firstAttribute="centerY" secondItem="tSc-4A-op0" secondAttribute="centerY" id="3Wj-Hx-77S"/>
+                    <constraint firstItem="tSc-4A-op0" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="L1L-j6-Ntc"/>
+                    <constraint firstItem="jt5-jW-hLa" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="PWo-2q-VLa"/>
+                    <constraint firstItem="GUG-z2-2gt" firstAttribute="centerX" secondItem="jt5-jW-hLa" secondAttribute="centerX" id="bX3-ha-R0s"/>
+                    <constraint firstItem="tSc-4A-op0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="cbo-BA-bSI"/>
+                    <constraint firstItem="GUG-z2-2gt" firstAttribute="width" secondItem="jt5-jW-hLa" secondAttribute="width" id="hpL-8l-4c3"/>
+                    <constraint firstAttribute="trailing" secondItem="jt5-jW-hLa" secondAttribute="trailing" constant="15" id="lx8-jC-DRC"/>
+                    <constraint firstItem="GUG-z2-2gt" firstAttribute="centerY" secondItem="jt5-jW-hLa" secondAttribute="centerY" id="pRA-k5-6nV"/>
+                    <constraint firstItem="GUG-z2-2gt" firstAttribute="height" secondItem="jt5-jW-hLa" secondAttribute="height" id="zRN-dI-kWe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="buttonCamera" destination="jt5-jW-hLa" id="K41-7T-fAy"/>
+                <outlet property="imageSelected" destination="GUG-z2-2gt" id="Gk1-Xa-Ddd"/>
+                <outlet property="keyTitle" destination="tSc-4A-op0" id="FEH-fT-dn0"/>
+                <outlet property="valueTitle" destination="X24-dd-OwS" id="Ep1-Pe-wIc"/>
+            </connections>
+            <point key="canvasLocation" x="72" y="108"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon-photo-camera" width="25" height="19"/>
+    </resources>
+</document>

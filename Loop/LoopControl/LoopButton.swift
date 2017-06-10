@@ -9,14 +9,13 @@
 import UIKit
 
 class LoopButton: UIButton {
-
   override func awakeFromNib() {
     setBorderButton()
   }
 
   func setBorderButton() {
     layer.borderWidth = 1.0
-    layer.borderColor = appConfig.borderButtonColor.cgColor
+    layer.borderColor = appConfig.appColor.cgColor
     layer.masksToBounds = true
   }
 }

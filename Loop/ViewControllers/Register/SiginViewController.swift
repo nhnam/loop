@@ -2,7 +2,7 @@
 //  SigInViewController.swift
 //  Loop
 //
-//  Created by Thanh Nhat on 6/8/17.
+//  Created by Tan Vu on 6/8/17.
 //  Copyright © 2017 Tan Vu. All rights reserved.
 //
 
@@ -18,20 +18,12 @@ class SiginViewController: BaseRegisterViewViewController, BaseViewControllerPro
   @IBOutlet weak var facebookView: FBSDKLoginButton!
   @IBOutlet weak var forgotPasswordButton: UIButton!
 
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    setUpView()
-  }
-
-  func setUpView() {
+  override func configView() {
     navigationController?.isNavigationBarHidden = false
-    self.facebookView.delegate = self
     self.navigationController?.navigationBar.tintColor = UIColor.red
     self.navigationItem.title = "Log In"
-  }
 
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
+    self.facebookView.delegate = self
   }
 
   @IBAction func sigInAction(_ sender: UIButton) {
@@ -41,7 +33,6 @@ class SiginViewController: BaseRegisterViewViewController, BaseViewControllerPro
   @IBAction func forgotPasswordAction(_ sender: UIButton) {
     navigationController?.pushViewController(UIViewController.forgotPasswordViewController, animated: true)
   }
-
 }
 
 extension SiginViewController : FBSDKLoginButtonDelegate {

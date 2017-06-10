@@ -8,5 +8,9 @@
 
 import UIKit
 
-class MainTabsViewController: UIViewController {
+class MainTabsViewController: UITabBarController, BaseViewControllerProtocol {
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    self.tabBar.tintColor = appConfig.appColor
+  }
 }

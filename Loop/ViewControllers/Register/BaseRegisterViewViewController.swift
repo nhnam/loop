@@ -2,20 +2,26 @@
 //  BaseRegisterViewViewController.swift
 //  Loop
 //
-//  Created by Thanh Nhat on 6/8/17.
+//  Created by Tan Vu on 6/8/17.
 //  Copyright © 2017 Tan Vu. All rights reserved.
 //
 
 import UIKit
 
 class BaseRegisterViewViewController: UIViewController {
-
   override func viewDidLoad() {
     super.viewDidLoad()
     customNavigation()
     addEventTouchInView()
     self.view.backgroundColor = appConfig.mainBackgroundColor
   }
+
+  override func viewWillAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    configView()
+  }
+
+  func configView() {}
 
   func customNavigation() {
     self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)

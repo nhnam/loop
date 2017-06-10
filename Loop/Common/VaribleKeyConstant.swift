@@ -2,7 +2,7 @@
 //  VaribleKeyConstant.swift
 //  Loop
 //
-//  Created by Thanh Nhat on 6/8/17.
+//  Created by Tan Vu on 6/8/17.
 //  Copyright © 2017 Tan Vu. All rights reserved.
 //
 

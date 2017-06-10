@@ -2,7 +2,7 @@
 //  SigUpViewController.swift
 //  Loop
 //
-//  Created by Thanh Nhat on 6/8/17.
+//  Created by Tan Vu on 6/8/17.
 //  Copyright © 2017 Tan Vu. All rights reserved.
 //
 
@@ -18,15 +18,9 @@ class SignupViewController: BaseRegisterViewViewController, BaseViewControllerPr
   @IBOutlet weak var signUpButton: LoopButton!
   @IBOutlet weak var loginFacebookView: FBSDKLoginButton!
   @IBOutlet weak var signMeBackInButton: UIButton!
-  
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    setUpView()
-  }
 
-  func setUpView() {
+  override func configView() {
     self.loginFacebookView.delegate = self
-    emailTextField?.font = UIFont(name: AppFonts.textFieldFont, size: 14)
   }
 
   override func viewWillAppear(_ animated: Bool) {
@@ -35,7 +29,7 @@ class SignupViewController: BaseRegisterViewViewController, BaseViewControllerPr
   }
 
   @IBAction func signUpAction(_ sender: UIButton) {
-    navigationController?.pushViewController(UIViewController.signupViewController, animated: true)
+    (self.navigationController as? SignupRootNavigationController)?.signupSuccess()
   }
 
   @IBAction func signUpBackMeAction(_ sender: UIButton) {
@@ -44,7 +38,6 @@ class SignupViewController: BaseRegisterViewViewController, BaseViewControllerPr
 
 }
 extension SignupViewController: FBSDKLoginButtonDelegate {
-
   func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
     let loginManager: FBSDKLoginManager = FBSDKLoginManager()
     loginManager.logOut()

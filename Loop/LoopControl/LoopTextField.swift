@@ -13,17 +13,22 @@ class LoopTextField: UITextField {
   override func awakeFromNib() {
     setBorderTextField()
     setPadingTextField()
+    setFont()
   }
 
-  func setBorderTextField(){
+  fileprivate func setBorderTextField(){
     layer.borderWidth = 1.0
     layer.borderColor = appConfig.borderTextFieldColor.cgColor
     layer.masksToBounds = true
   }
 
-  func setPadingTextField() {
+  fileprivate func setPadingTextField() {
     leftView = UIView(frame: CGRect(x : 0, y: 0, width: 20, height: self.frame.height))
     leftViewMode = UITextFieldViewMode.always
+  }
+
+  fileprivate func setFont() {
+    self.font = UIFont(name: AppFonts.textFieldFont, size: 14)
   }
 }
 

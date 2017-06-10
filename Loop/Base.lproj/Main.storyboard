@@ -9,25 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Loop" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-446" y="125"/>
-        </scene>
-        <!--My Event-->
+        <!--Events View Controller-->
         <scene sceneID="i67-hr-Qo3">
             <objects>
                 <viewController id="LW4-hA-AaP" customClass="EventsViewController" customModule="Loop" customModuleProvider="target" sceneMemberID="viewController">
@@ -38,13 +20,86 @@
                     <view key="view" contentMode="scaleToFill" id="WbP-Rn-xn4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VB3-q1-jL7">
+                                <rect key="frame" x="57.5" y="81" width="120" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="WiC-3V-ZcH"/>
+                                    <constraint firstAttribute="width" constant="120" id="kIN-YC-6zG"/>
+                                </constraints>
+                                <state key="normal" title="Private" backgroundImage="event-button-nomal-background">
+                                    <color key="titleColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" backgroundImage="event-button-selected-background">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="event-button-selected-background">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="privateButtonClicked:" destination="LW4-hA-AaP" eventType="touchUpInside" id="h9o-hq-41R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcS-eJ-Kjm">
+                                <rect key="frame" x="197.5" y="81" width="120" height="30"/>
+                                <state key="normal" title="Public" backgroundImage="event-button-nomal-background">
+                                    <color key="titleColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" backgroundImage="event-button-selected-background">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="event-button-selected-background">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="publicButtonClicked:" destination="LW4-hA-AaP" eventType="touchUpInside" id="Ucr-xV-kQ1"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="skx-PX-Rmt">
+                                <rect key="frame" x="0.0" y="128" width="375" height="490"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="skx-PX-Rmt" firstAttribute="top" secondItem="fcS-eJ-Kjm" secondAttribute="bottom" constant="17" id="BZI-ud-W0m"/>
+                            <constraint firstItem="skx-PX-Rmt" firstAttribute="leading" secondItem="WbP-Rn-xn4" secondAttribute="leading" id="PYr-Uu-dAz"/>
+                            <constraint firstItem="VB3-q1-jL7" firstAttribute="centerX" secondItem="WbP-Rn-xn4" secondAttribute="centerX" constant="-70" id="QdX-bq-5Uw"/>
+                            <constraint firstItem="NP6-yY-8o7" firstAttribute="top" secondItem="skx-PX-Rmt" secondAttribute="bottom" id="S4c-Eh-rbd"/>
+                            <constraint firstItem="fcS-eJ-Kjm" firstAttribute="top" secondItem="VB3-q1-jL7" secondAttribute="top" id="fD6-Wg-Soe"/>
+                            <constraint firstAttribute="trailing" secondItem="skx-PX-Rmt" secondAttribute="trailing" id="h2w-Xq-ZHF"/>
+                            <constraint firstItem="fcS-eJ-Kjm" firstAttribute="centerX" secondItem="WbP-Rn-xn4" secondAttribute="centerX" constant="70" id="jgu-ko-KzJ"/>
+                            <constraint firstItem="fcS-eJ-Kjm" firstAttribute="width" secondItem="VB3-q1-jL7" secondAttribute="width" id="kKQ-Gh-Iuw"/>
+                            <constraint firstItem="fcS-eJ-Kjm" firstAttribute="height" secondItem="VB3-q1-jL7" secondAttribute="height" id="rTm-9b-kIU"/>
+                            <constraint firstItem="VB3-q1-jL7" firstAttribute="top" secondItem="zbR-eU-uKe" secondAttribute="bottom" constant="17" id="zyp-Bg-dCo"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="My Event" image="icon-event-active" id="8kK-7Z-Fet"/>
+                    <navigationItem key="navigationItem" id="ahd-sD-q1f"/>
+                    <connections>
+                        <outlet property="privateButton" destination="VB3-q1-jL7" id="BI3-Z2-vna"/>
+                        <outlet property="publicButton" destination="fcS-eJ-Kjm" id="kIy-aS-WPm"/>
+                        <outlet property="tableView" destination="skx-PX-Rmt" id="AUc-E7-bJa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jwx-A8-Vzg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1369" y="454"/>
+            <point key="canvasLocation" x="2308" y="453.82308845577217"/>
         </scene>
         <!--Notifications-->
         <scene sceneID="oce-g1-59p">
@@ -103,10 +158,10 @@
             </objects>
             <point key="canvasLocation" x="1369" y="-201"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tabs View Controller-->
         <scene sceneID="liM-0A-v5w">
             <objects>
-                <tabBarController id="PM5-u3-9YH" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainTabsViewController" id="PM5-u3-9YH" customClass="MainTabsViewController" customModule="Loop" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Ssn-W9-yfx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -114,7 +169,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="PXM-f6-5Pn" kind="relationship" relationship="viewControllers" id="DuD-De-dM9"/>
-                        <segue destination="LW4-hA-AaP" kind="relationship" relationship="viewControllers" id="Y14-6d-elV"/>
+                        <segue destination="2ZG-tY-i1V" kind="relationship" relationship="viewControllers" id="Y14-6d-elV"/>
                         <segue destination="Xny-ft-CGs" kind="relationship" relationship="viewControllers" id="KQh-5q-CNe"/>
                         <segue destination="FYJ-w3-VL2" kind="relationship" relationship="viewControllers" id="yu6-4y-a6i"/>
                     </connections>
@@ -123,8 +178,29 @@
             </objects>
             <point key="canvasLocation" x="417" y="126"/>
         </scene>
+        <!--My Event-->
+        <scene sceneID="Um4-tf-wvU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2ZG-tY-i1V" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="My Event" image="icon-event-active" id="8kK-7Z-Fet"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="0wy-nh-9Ve">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="LW4-hA-AaP" kind="relationship" relationship="rootViewController" id="9bT-IS-RAa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W4M-dN-h3h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1368.8" y="453.82308845577217"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="event-button-nomal-background" width="120" height="30"/>
+        <image name="event-button-selected-background" width="120" height="30"/>
         <image name="icon-event-active" width="22" height="22"/>
         <image name="icon-map-inactive" width="14" height="21"/>
         <image name="icon-notificaiton-inactive" width="22" height="19"/>
