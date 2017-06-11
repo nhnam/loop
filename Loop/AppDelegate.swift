@@ -11,6 +11,9 @@ import FBSDKCoreKit
 import FBSDKShareKit
 import FBSDKLoginKit
 import IQKeyboardManagerSwift
+import Fabric
+import Crashlytics
+
 
 let appConfig = AppConfigure()
 
@@ -22,8 +25,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     IQKeyboardManager.sharedManager().enable = true
+    Fabric.with([Crashlytics.self])
     return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
   }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        return FBSDKApplicationDelegate.sharedInstance().application(app, open: url, options: options)
+    }
+    
+    func application(_ app: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        return FBSDKApplicationDelegate.sharedInstance().application(app, open: url, sourceApplication: sourceApplication, annotation: annotation);
+    }
 
   func applicationWillResignActive(_ application: UIApplication) {
   }
