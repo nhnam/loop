@@ -29,6 +29,18 @@ class EventsViewController: UIViewController {
     self.tableView.sectionFooterHeight = 20.0
     self.tableView.contentInset = UIEdgeInsets(top: -35, left: 0, bottom: 0, right: 0)
   }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        AppController.topViewController = self
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        if AppController.topViewController is EventsViewController {
+            AppController.topViewController = nil
+        }
+        super.viewWillDisappear(animated)
+    }
 
   @IBAction func privateButtonClicked(_ sender: UIButton) {
     if sender == privateButton && privateButton.isSelected { return }
@@ -38,6 +50,7 @@ class EventsViewController: UIViewController {
 
     publicButton.isHighlighted = !privateButton.isHighlighted
     publicButton.isSelected = !privateButton.isHighlighted
+    
     tableView.dataSource = privateEventViewModel
     tableView.reloadData()
   }
@@ -50,6 +63,7 @@ class EventsViewController: UIViewController {
 
     privateButton.isHighlighted = !publicButton.isHighlighted
     privateButton.isSelected = !publicButton.isHighlighted
+    
     tableView.dataSource = publicEventViewModel
     tableView.reloadData()
   }

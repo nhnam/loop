@@ -21,9 +21,21 @@
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>facebook</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>fb1072493419549316</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>uploadcare</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>uc-37ade90beeacb70c64d6</string>
 			</array>
 		</dict>
 	</array>
@@ -56,6 +68,16 @@
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Choose event photo</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MuseoSansCyrl-100</string>
+		<string>MuseoSansCyrl-300</string>
+		<string>MuseoSansCyrl-500</string>
+		<string>MuseoSansCyrl-700</string>
+		<string>MuseoSansCyrl-900</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

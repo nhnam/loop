@@ -9,5 +9,6 @@
 import Foundation
 
 struct AppFonts {
-  static let textFieldFont = "GOTHAM-BLACK"
+    static let textFieldFont = "MuseoSansCyrl-500"
+    static let buttonFont = "MuseoSansCyrl-900"
 }

@@ -13,7 +13,7 @@ import FBSDKLoginKit
 import IQKeyboardManagerSwift
 import Fabric
 import Crashlytics
-
+import Uploadcare
 
 let appConfig = AppConfigure()
 
@@ -26,11 +26,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     IQKeyboardManager.sharedManager().enable = true
     Fabric.with([Crashlytics.self])
+    UCClient.default().setPublicKey("37ade90beeacb70c64d6")
     return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
   }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
-        return FBSDKApplicationDelegate.sharedInstance().application(app, open: url, options: options)
+        let uploadHandler = UCClient.default().handle(url)
+        let facebookHandler =  FBSDKApplicationDelegate.sharedInstance().application(app, open: url, options: options)
+        return uploadHandler || facebookHandler;
     }
     
     func application(_ app: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
